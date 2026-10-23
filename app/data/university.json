@@ -1,0 +1,3276 @@
+{
+  "university": {
+    "name": "Example University",
+    "short_name": "EU",
+    "city": "Example City",
+    "academic_year": "2026-27",
+    "current_term": "Odd semester (July-December 2026)",
+    "portal_url": "https://portal.example.edu",
+    "helpdesk_email": "helpdesk@example.edu"
+  },
+  "departments": {
+    "CSE": "Computer Science and Engineering",
+    "ECE": "Electronics and Communication Engineering",
+    "EEE": "Electrical and Electronics Engineering",
+    "ME": "Mechanical Engineering",
+    "CE": "Civil Engineering"
+  },
+  "offered_semesters": [
+    1,
+    3,
+    5,
+    7
+  ],
+  "courses": {
+    "GE101": {
+      "code": "GE101",
+      "title": "Engineering Mathematics I",
+      "credits": 4,
+      "department": "Common",
+      "semester": 1,
+      "description": "Calculus, differential equations and linear algebra.",
+      "prerequisites": [],
+      "has_lab": true
+    },
+    "GE102": {
+      "code": "GE102",
+      "title": "Engineering Physics",
+      "credits": 3,
+      "department": "Common",
+      "semester": 1,
+      "description": "Optics, quantum mechanics basics and semiconductor physics.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "GE103": {
+      "code": "GE103",
+      "title": "Programming in Python",
+      "credits": 3,
+      "department": "Common",
+      "semester": 1,
+      "description": "Problem solving, control flow, functions and data structures in Python.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "GE104": {
+      "code": "GE104",
+      "title": "Basic Electrical Engineering",
+      "credits": 3,
+      "department": "Common",
+      "semester": 1,
+      "description": "DC/AC circuits, machines and electrical safety.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "CS301": {
+      "code": "CS301",
+      "title": "Data Structures",
+      "credits": 4,
+      "department": "CSE",
+      "semester": 3,
+      "description": "Arrays, linked lists, trees, graphs, hashing and their complexity analysis.",
+      "prerequisites": [],
+      "has_lab": true
+    },
+    "CS302": {
+      "code": "CS302",
+      "title": "Digital Logic Design",
+      "credits": 3,
+      "department": "CSE",
+      "semester": 3,
+      "description": "Boolean algebra, combinational and sequential circuits, finite state machines.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "CS303": {
+      "code": "CS303",
+      "title": "Discrete Mathematics",
+      "credits": 4,
+      "department": "CSE",
+      "semester": 3,
+      "description": "Logic, sets, relations, combinatorics and graph theory for computing.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "CS501": {
+      "code": "CS501",
+      "title": "Operating Systems",
+      "credits": 4,
+      "department": "CSE",
+      "semester": 5,
+      "description": "Processes, scheduling, memory management, file systems and concurrency.",
+      "prerequisites": [
+        "CS301"
+      ],
+      "has_lab": true
+    },
+    "CS502": {
+      "code": "CS502",
+      "title": "Database Management Systems",
+      "credits": 4,
+      "department": "CSE",
+      "semester": 5,
+      "description": "Relational model, SQL, normalization, transactions and indexing.",
+      "prerequisites": [
+        "CS301"
+      ],
+      "has_lab": false
+    },
+    "CS503": {
+      "code": "CS503",
+      "title": "Computer Networks",
+      "credits": 3,
+      "department": "CSE",
+      "semester": 5,
+      "description": "Layered architecture, TCP/IP, routing, congestion control and network security basics.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "CS701": {
+      "code": "CS701",
+      "title": "Machine Learning",
+      "credits": 4,
+      "department": "CSE",
+      "semester": 7,
+      "description": "Supervised and unsupervised learning, model evaluation and practical ML pipelines.",
+      "prerequisites": [
+        "CS303"
+      ],
+      "has_lab": true
+    },
+    "CS702": {
+      "code": "CS702",
+      "title": "Compiler Design",
+      "credits": 3,
+      "department": "CSE",
+      "semester": 7,
+      "description": "Lexical analysis, parsing, semantic analysis, intermediate code and optimisation.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "CS703": {
+      "code": "CS703",
+      "title": "Cloud Computing",
+      "credits": 3,
+      "department": "CSE",
+      "semester": 7,
+      "description": "Virtualisation, containers, distributed storage and cloud service models.",
+      "prerequisites": [
+        "CS503"
+      ],
+      "has_lab": false
+    },
+    "EC301": {
+      "code": "EC301",
+      "title": "Electronic Devices and Circuits",
+      "credits": 4,
+      "department": "ECE",
+      "semester": 3,
+      "description": "Diodes, BJTs, MOSFETs, biasing and small-signal amplifiers.",
+      "prerequisites": [],
+      "has_lab": true
+    },
+    "EC302": {
+      "code": "EC302",
+      "title": "Signals and Systems",
+      "credits": 4,
+      "department": "ECE",
+      "semester": 3,
+      "description": "Continuous and discrete signals, LTI systems, Fourier and Laplace transforms.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "EC303": {
+      "code": "EC303",
+      "title": "Network Theory",
+      "credits": 3,
+      "department": "ECE",
+      "semester": 3,
+      "description": "Circuit theorems, transient analysis and two-port networks.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "EC501": {
+      "code": "EC501",
+      "title": "Digital Signal Processing",
+      "credits": 4,
+      "department": "ECE",
+      "semester": 5,
+      "description": "Sampling, DFT/FFT, FIR and IIR filter design.",
+      "prerequisites": [
+        "EC302"
+      ],
+      "has_lab": true
+    },
+    "EC502": {
+      "code": "EC502",
+      "title": "Analog Communication",
+      "credits": 3,
+      "department": "ECE",
+      "semester": 5,
+      "description": "AM, FM, noise analysis and radio receivers.",
+      "prerequisites": [
+        "EC302"
+      ],
+      "has_lab": false
+    },
+    "EC503": {
+      "code": "EC503",
+      "title": "Microprocessors and Microcontrollers",
+      "credits": 4,
+      "department": "ECE",
+      "semester": 5,
+      "description": "8086 architecture, ARM Cortex-M basics and interfacing.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "EC701": {
+      "code": "EC701",
+      "title": "VLSI Design",
+      "credits": 4,
+      "department": "ECE",
+      "semester": 7,
+      "description": "CMOS logic, layout, timing and an introduction to Verilog-based design flow.",
+      "prerequisites": [
+        "EC301"
+      ],
+      "has_lab": true
+    },
+    "EC702": {
+      "code": "EC702",
+      "title": "Wireless Communication",
+      "credits": 3,
+      "department": "ECE",
+      "semester": 7,
+      "description": "Fading channels, OFDM, MIMO and cellular system design.",
+      "prerequisites": [
+        "EC502"
+      ],
+      "has_lab": false
+    },
+    "EC703": {
+      "code": "EC703",
+      "title": "Embedded Systems",
+      "credits": 3,
+      "department": "ECE",
+      "semester": 7,
+      "description": "Real-time operating systems, sensors and low-power embedded design.",
+      "prerequisites": [
+        "EC503"
+      ],
+      "has_lab": false
+    },
+    "EE301": {
+      "code": "EE301",
+      "title": "Electrical Machines I",
+      "credits": 4,
+      "department": "EEE",
+      "semester": 3,
+      "description": "DC machines and transformers: construction, operation and testing.",
+      "prerequisites": [],
+      "has_lab": true
+    },
+    "EE302": {
+      "code": "EE302",
+      "title": "Circuit Analysis",
+      "credits": 4,
+      "department": "EEE",
+      "semester": 3,
+      "description": "AC/DC circuit analysis, resonance and three-phase systems.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "EE303": {
+      "code": "EE303",
+      "title": "Electromagnetic Fields",
+      "credits": 3,
+      "department": "EEE",
+      "semester": 3,
+      "description": "Electrostatics, magnetostatics and Maxwell's equations.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "EE501": {
+      "code": "EE501",
+      "title": "Power Systems I",
+      "credits": 4,
+      "department": "EEE",
+      "semester": 5,
+      "description": "Generation, transmission line parameters and distribution.",
+      "prerequisites": [],
+      "has_lab": true
+    },
+    "EE502": {
+      "code": "EE502",
+      "title": "Control Systems",
+      "credits": 4,
+      "department": "EEE",
+      "semester": 5,
+      "description": "Transfer functions, stability, root locus and frequency response.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "EE503": {
+      "code": "EE503",
+      "title": "Power Electronics",
+      "credits": 3,
+      "department": "EEE",
+      "semester": 5,
+      "description": "Rectifiers, choppers, inverters and their applications.",
+      "prerequisites": [
+        "EE301"
+      ],
+      "has_lab": false
+    },
+    "EE701": {
+      "code": "EE701",
+      "title": "Power System Protection",
+      "credits": 4,
+      "department": "EEE",
+      "semester": 7,
+      "description": "Relays, circuit breakers and protection schemes.",
+      "prerequisites": [
+        "EE501"
+      ],
+      "has_lab": true
+    },
+    "EE702": {
+      "code": "EE702",
+      "title": "Renewable Energy Systems",
+      "credits": 3,
+      "department": "EEE",
+      "semester": 7,
+      "description": "Solar PV, wind energy conversion and grid integration.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "EE703": {
+      "code": "EE703",
+      "title": "Electric Drives",
+      "credits": 3,
+      "department": "EEE",
+      "semester": 7,
+      "description": "Speed control of DC and AC motors using power converters.",
+      "prerequisites": [
+        "EE503"
+      ],
+      "has_lab": false
+    },
+    "ME301": {
+      "code": "ME301",
+      "title": "Engineering Thermodynamics",
+      "credits": 4,
+      "department": "ME",
+      "semester": 3,
+      "description": "Laws of thermodynamics, entropy and power cycles.",
+      "prerequisites": [],
+      "has_lab": true
+    },
+    "ME302": {
+      "code": "ME302",
+      "title": "Strength of Materials",
+      "credits": 4,
+      "department": "ME",
+      "semester": 3,
+      "description": "Stress, strain, bending, torsion and deflection of beams.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "ME303": {
+      "code": "ME303",
+      "title": "Manufacturing Processes",
+      "credits": 3,
+      "department": "ME",
+      "semester": 3,
+      "description": "Casting, forming, welding and machining fundamentals.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "ME501": {
+      "code": "ME501",
+      "title": "Heat and Mass Transfer",
+      "credits": 4,
+      "department": "ME",
+      "semester": 5,
+      "description": "Conduction, convection, radiation and heat exchangers.",
+      "prerequisites": [
+        "ME301"
+      ],
+      "has_lab": true
+    },
+    "ME502": {
+      "code": "ME502",
+      "title": "Design of Machine Elements",
+      "credits": 4,
+      "department": "ME",
+      "semester": 5,
+      "description": "Design of shafts, gears, bearings and joints.",
+      "prerequisites": [
+        "ME302"
+      ],
+      "has_lab": false
+    },
+    "ME503": {
+      "code": "ME503",
+      "title": "Fluid Mechanics",
+      "credits": 3,
+      "department": "ME",
+      "semester": 5,
+      "description": "Fluid statics, flow kinematics, Bernoulli's equation and pipe flow.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "ME701": {
+      "code": "ME701",
+      "title": "Finite Element Analysis",
+      "credits": 4,
+      "department": "ME",
+      "semester": 7,
+      "description": "Discretisation, element formulation and structural analysis.",
+      "prerequisites": [
+        "ME302"
+      ],
+      "has_lab": true
+    },
+    "ME702": {
+      "code": "ME702",
+      "title": "Automobile Engineering",
+      "credits": 3,
+      "department": "ME",
+      "semester": 7,
+      "description": "Engines, transmission, steering, braking and EV powertrains.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "ME703": {
+      "code": "ME703",
+      "title": "Robotics",
+      "credits": 3,
+      "department": "ME",
+      "semester": 7,
+      "description": "Kinematics, dynamics, actuators and robot programming.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "CE301": {
+      "code": "CE301",
+      "title": "Surveying",
+      "credits": 4,
+      "department": "CE",
+      "semester": 3,
+      "description": "Levelling, theodolite, total station and GPS surveying.",
+      "prerequisites": [],
+      "has_lab": true
+    },
+    "CE302": {
+      "code": "CE302",
+      "title": "Mechanics of Solids",
+      "credits": 4,
+      "department": "CE",
+      "semester": 3,
+      "description": "Stress analysis, shear force and bending moment diagrams.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "CE303": {
+      "code": "CE303",
+      "title": "Building Materials",
+      "credits": 3,
+      "department": "CE",
+      "semester": 3,
+      "description": "Properties and testing of cement, concrete, steel and bricks.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "CE501": {
+      "code": "CE501",
+      "title": "Structural Analysis",
+      "credits": 4,
+      "department": "CE",
+      "semester": 5,
+      "description": "Analysis of determinate and indeterminate structures.",
+      "prerequisites": [
+        "CE302"
+      ],
+      "has_lab": true
+    },
+    "CE502": {
+      "code": "CE502",
+      "title": "Geotechnical Engineering",
+      "credits": 4,
+      "department": "CE",
+      "semester": 5,
+      "description": "Soil properties, compaction, consolidation and shear strength.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "CE503": {
+      "code": "CE503",
+      "title": "Hydraulics",
+      "credits": 3,
+      "department": "CE",
+      "semester": 5,
+      "description": "Open channel flow, hydraulic machines and dimensional analysis.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "CE701": {
+      "code": "CE701",
+      "title": "Design of Steel Structures",
+      "credits": 4,
+      "department": "CE",
+      "semester": 7,
+      "description": "Limit state design of tension, compression and flexural members.",
+      "prerequisites": [
+        "CE501"
+      ],
+      "has_lab": true
+    },
+    "CE702": {
+      "code": "CE702",
+      "title": "Transportation Engineering",
+      "credits": 3,
+      "department": "CE",
+      "semester": 7,
+      "description": "Highway planning, pavement design and traffic engineering.",
+      "prerequisites": [],
+      "has_lab": false
+    },
+    "CE703": {
+      "code": "CE703",
+      "title": "Environmental Engineering",
+      "credits": 3,
+      "department": "CE",
+      "semester": 7,
+      "description": "Water treatment, wastewater treatment and solid waste management.",
+      "prerequisites": [],
+      "has_lab": false
+    }
+  },
+  "exam_schedule": {
+    "term": "End-semester examinations, November-December 2026",
+    "hall_ticket_release": "2026-11-16",
+    "by_department": {
+      "CSE": {
+        "1": [
+          {
+            "course_code": "GE101",
+            "course": "Engineering Mathematics I",
+            "date": "2026-11-23",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE102",
+            "course": "Engineering Physics",
+            "date": "2026-11-25",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE103",
+            "course": "Programming in Python",
+            "date": "2026-11-27",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE104",
+            "course": "Basic Electrical Engineering",
+            "date": "2026-12-01",
+            "session": "FN (09:30-12:30)"
+          }
+        ],
+        "3": [
+          {
+            "course_code": "CS301",
+            "course": "Data Structures",
+            "date": "2026-11-24",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "CS302",
+            "course": "Digital Logic Design",
+            "date": "2026-11-26",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "CS303",
+            "course": "Discrete Mathematics",
+            "date": "2026-11-30",
+            "session": "AN (14:00-17:00)"
+          }
+        ],
+        "5": [
+          {
+            "course_code": "CS501",
+            "course": "Operating Systems",
+            "date": "2026-11-23",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "CS502",
+            "course": "Database Management Systems",
+            "date": "2026-11-25",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "CS503",
+            "course": "Computer Networks",
+            "date": "2026-11-27",
+            "session": "FN (09:30-12:30)"
+          }
+        ],
+        "7": [
+          {
+            "course_code": "CS701",
+            "course": "Machine Learning",
+            "date": "2026-11-24",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "CS702",
+            "course": "Compiler Design",
+            "date": "2026-11-26",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "CS703",
+            "course": "Cloud Computing",
+            "date": "2026-11-30",
+            "session": "AN (14:00-17:00)"
+          }
+        ]
+      },
+      "ECE": {
+        "1": [
+          {
+            "course_code": "GE101",
+            "course": "Engineering Mathematics I",
+            "date": "2026-11-23",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE102",
+            "course": "Engineering Physics",
+            "date": "2026-11-25",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE103",
+            "course": "Programming in Python",
+            "date": "2026-11-27",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE104",
+            "course": "Basic Electrical Engineering",
+            "date": "2026-12-01",
+            "session": "FN (09:30-12:30)"
+          }
+        ],
+        "3": [
+          {
+            "course_code": "EC301",
+            "course": "Electronic Devices and Circuits",
+            "date": "2026-11-24",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "EC302",
+            "course": "Signals and Systems",
+            "date": "2026-11-26",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "EC303",
+            "course": "Network Theory",
+            "date": "2026-11-30",
+            "session": "AN (14:00-17:00)"
+          }
+        ],
+        "5": [
+          {
+            "course_code": "EC501",
+            "course": "Digital Signal Processing",
+            "date": "2026-11-23",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "EC502",
+            "course": "Analog Communication",
+            "date": "2026-11-25",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "EC503",
+            "course": "Microprocessors and Microcontrollers",
+            "date": "2026-11-27",
+            "session": "FN (09:30-12:30)"
+          }
+        ],
+        "7": [
+          {
+            "course_code": "EC701",
+            "course": "VLSI Design",
+            "date": "2026-11-24",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "EC702",
+            "course": "Wireless Communication",
+            "date": "2026-11-26",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "EC703",
+            "course": "Embedded Systems",
+            "date": "2026-11-30",
+            "session": "AN (14:00-17:00)"
+          }
+        ]
+      },
+      "EEE": {
+        "1": [
+          {
+            "course_code": "GE101",
+            "course": "Engineering Mathematics I",
+            "date": "2026-11-23",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE102",
+            "course": "Engineering Physics",
+            "date": "2026-11-25",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE103",
+            "course": "Programming in Python",
+            "date": "2026-11-27",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE104",
+            "course": "Basic Electrical Engineering",
+            "date": "2026-12-01",
+            "session": "FN (09:30-12:30)"
+          }
+        ],
+        "3": [
+          {
+            "course_code": "EE301",
+            "course": "Electrical Machines I",
+            "date": "2026-11-24",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "EE302",
+            "course": "Circuit Analysis",
+            "date": "2026-11-26",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "EE303",
+            "course": "Electromagnetic Fields",
+            "date": "2026-11-30",
+            "session": "AN (14:00-17:00)"
+          }
+        ],
+        "5": [
+          {
+            "course_code": "EE501",
+            "course": "Power Systems I",
+            "date": "2026-11-23",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "EE502",
+            "course": "Control Systems",
+            "date": "2026-11-25",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "EE503",
+            "course": "Power Electronics",
+            "date": "2026-11-27",
+            "session": "FN (09:30-12:30)"
+          }
+        ],
+        "7": [
+          {
+            "course_code": "EE701",
+            "course": "Power System Protection",
+            "date": "2026-11-24",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "EE702",
+            "course": "Renewable Energy Systems",
+            "date": "2026-11-26",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "EE703",
+            "course": "Electric Drives",
+            "date": "2026-11-30",
+            "session": "AN (14:00-17:00)"
+          }
+        ]
+      },
+      "ME": {
+        "1": [
+          {
+            "course_code": "GE101",
+            "course": "Engineering Mathematics I",
+            "date": "2026-11-23",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE102",
+            "course": "Engineering Physics",
+            "date": "2026-11-25",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE103",
+            "course": "Programming in Python",
+            "date": "2026-11-27",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE104",
+            "course": "Basic Electrical Engineering",
+            "date": "2026-12-01",
+            "session": "FN (09:30-12:30)"
+          }
+        ],
+        "3": [
+          {
+            "course_code": "ME301",
+            "course": "Engineering Thermodynamics",
+            "date": "2026-11-24",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "ME302",
+            "course": "Strength of Materials",
+            "date": "2026-11-26",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "ME303",
+            "course": "Manufacturing Processes",
+            "date": "2026-11-30",
+            "session": "AN (14:00-17:00)"
+          }
+        ],
+        "5": [
+          {
+            "course_code": "ME501",
+            "course": "Heat and Mass Transfer",
+            "date": "2026-11-23",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "ME502",
+            "course": "Design of Machine Elements",
+            "date": "2026-11-25",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "ME503",
+            "course": "Fluid Mechanics",
+            "date": "2026-11-27",
+            "session": "FN (09:30-12:30)"
+          }
+        ],
+        "7": [
+          {
+            "course_code": "ME701",
+            "course": "Finite Element Analysis",
+            "date": "2026-11-24",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "ME702",
+            "course": "Automobile Engineering",
+            "date": "2026-11-26",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "ME703",
+            "course": "Robotics",
+            "date": "2026-11-30",
+            "session": "AN (14:00-17:00)"
+          }
+        ]
+      },
+      "CE": {
+        "1": [
+          {
+            "course_code": "GE101",
+            "course": "Engineering Mathematics I",
+            "date": "2026-11-23",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE102",
+            "course": "Engineering Physics",
+            "date": "2026-11-25",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE103",
+            "course": "Programming in Python",
+            "date": "2026-11-27",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "GE104",
+            "course": "Basic Electrical Engineering",
+            "date": "2026-12-01",
+            "session": "FN (09:30-12:30)"
+          }
+        ],
+        "3": [
+          {
+            "course_code": "CE301",
+            "course": "Surveying",
+            "date": "2026-11-24",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "CE302",
+            "course": "Mechanics of Solids",
+            "date": "2026-11-26",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "CE303",
+            "course": "Building Materials",
+            "date": "2026-11-30",
+            "session": "AN (14:00-17:00)"
+          }
+        ],
+        "5": [
+          {
+            "course_code": "CE501",
+            "course": "Structural Analysis",
+            "date": "2026-11-23",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "CE502",
+            "course": "Geotechnical Engineering",
+            "date": "2026-11-25",
+            "session": "FN (09:30-12:30)"
+          },
+          {
+            "course_code": "CE503",
+            "course": "Hydraulics",
+            "date": "2026-11-27",
+            "session": "FN (09:30-12:30)"
+          }
+        ],
+        "7": [
+          {
+            "course_code": "CE701",
+            "course": "Design of Steel Structures",
+            "date": "2026-11-24",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "CE702",
+            "course": "Transportation Engineering",
+            "date": "2026-11-26",
+            "session": "AN (14:00-17:00)"
+          },
+          {
+            "course_code": "CE703",
+            "course": "Environmental Engineering",
+            "date": "2026-11-30",
+            "session": "AN (14:00-17:00)"
+          }
+        ]
+      }
+    }
+  },
+  "timetable": {
+    "CSE": {
+      "1": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE101",
+            "room": "AB1-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE102",
+            "room": "AB1-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE103",
+            "room": "AB1-103"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE102",
+            "room": "AB1-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE103",
+            "room": "AB1-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE104",
+            "room": "AB1-103"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "GE101",
+            "room": "CSE Lab 1"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE103",
+            "room": "AB1-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE104",
+            "room": "AB1-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE101",
+            "room": "AB1-103"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE104",
+            "room": "AB1-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE101",
+            "room": "AB1-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE102",
+            "room": "AB1-103"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "GE101",
+            "room": "CSE Lab 1"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE101",
+            "room": "AB1-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE102",
+            "room": "AB1-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE103",
+            "room": "AB1-103"
+          }
+        ]
+      },
+      "3": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS301",
+            "room": "AB1-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS302",
+            "room": "AB1-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS303",
+            "room": "AB1-303"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS302",
+            "room": "AB1-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS303",
+            "room": "AB1-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS301",
+            "room": "AB1-303"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "CS301",
+            "room": "CSE Lab 3"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS303",
+            "room": "AB1-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS301",
+            "room": "AB1-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS302",
+            "room": "AB1-303"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS301",
+            "room": "AB1-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS302",
+            "room": "AB1-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS303",
+            "room": "AB1-303"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "CS301",
+            "room": "CSE Lab 3"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS302",
+            "room": "AB1-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS303",
+            "room": "AB1-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS301",
+            "room": "AB1-303"
+          }
+        ]
+      },
+      "5": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS501",
+            "room": "AB1-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS502",
+            "room": "AB1-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS503",
+            "room": "AB1-503"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS502",
+            "room": "AB1-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS503",
+            "room": "AB1-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS501",
+            "room": "AB1-503"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "CS501",
+            "room": "CSE Lab 5"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS503",
+            "room": "AB1-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS501",
+            "room": "AB1-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS502",
+            "room": "AB1-503"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS501",
+            "room": "AB1-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS502",
+            "room": "AB1-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS503",
+            "room": "AB1-503"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "CS501",
+            "room": "CSE Lab 5"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS502",
+            "room": "AB1-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS503",
+            "room": "AB1-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS501",
+            "room": "AB1-503"
+          }
+        ]
+      },
+      "7": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS701",
+            "room": "AB1-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS702",
+            "room": "AB1-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS703",
+            "room": "AB1-703"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS702",
+            "room": "AB1-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS703",
+            "room": "AB1-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS701",
+            "room": "AB1-703"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "CS701",
+            "room": "CSE Lab 7"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS703",
+            "room": "AB1-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS701",
+            "room": "AB1-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS702",
+            "room": "AB1-703"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS701",
+            "room": "AB1-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS702",
+            "room": "AB1-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS703",
+            "room": "AB1-703"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "CS701",
+            "room": "CSE Lab 7"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CS702",
+            "room": "AB1-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CS703",
+            "room": "AB1-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CS701",
+            "room": "AB1-703"
+          }
+        ]
+      }
+    },
+    "ECE": {
+      "1": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE101",
+            "room": "AB2-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE102",
+            "room": "AB2-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE103",
+            "room": "AB2-103"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE102",
+            "room": "AB2-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE103",
+            "room": "AB2-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE104",
+            "room": "AB2-103"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "GE101",
+            "room": "ECE Lab 1"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE103",
+            "room": "AB2-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE104",
+            "room": "AB2-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE101",
+            "room": "AB2-103"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE104",
+            "room": "AB2-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE101",
+            "room": "AB2-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE102",
+            "room": "AB2-103"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "GE101",
+            "room": "ECE Lab 1"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE101",
+            "room": "AB2-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE102",
+            "room": "AB2-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE103",
+            "room": "AB2-103"
+          }
+        ]
+      },
+      "3": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC301",
+            "room": "AB2-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC302",
+            "room": "AB2-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC303",
+            "room": "AB2-303"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC302",
+            "room": "AB2-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC303",
+            "room": "AB2-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC301",
+            "room": "AB2-303"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "EC301",
+            "room": "ECE Lab 3"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC303",
+            "room": "AB2-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC301",
+            "room": "AB2-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC302",
+            "room": "AB2-303"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC301",
+            "room": "AB2-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC302",
+            "room": "AB2-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC303",
+            "room": "AB2-303"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "EC301",
+            "room": "ECE Lab 3"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC302",
+            "room": "AB2-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC303",
+            "room": "AB2-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC301",
+            "room": "AB2-303"
+          }
+        ]
+      },
+      "5": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC501",
+            "room": "AB2-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC502",
+            "room": "AB2-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC503",
+            "room": "AB2-503"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC502",
+            "room": "AB2-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC503",
+            "room": "AB2-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC501",
+            "room": "AB2-503"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "EC501",
+            "room": "ECE Lab 5"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC503",
+            "room": "AB2-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC501",
+            "room": "AB2-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC502",
+            "room": "AB2-503"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC501",
+            "room": "AB2-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC502",
+            "room": "AB2-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC503",
+            "room": "AB2-503"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "EC501",
+            "room": "ECE Lab 5"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC502",
+            "room": "AB2-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC503",
+            "room": "AB2-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC501",
+            "room": "AB2-503"
+          }
+        ]
+      },
+      "7": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC701",
+            "room": "AB2-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC702",
+            "room": "AB2-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC703",
+            "room": "AB2-703"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC702",
+            "room": "AB2-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC703",
+            "room": "AB2-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC701",
+            "room": "AB2-703"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "EC701",
+            "room": "ECE Lab 7"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC703",
+            "room": "AB2-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC701",
+            "room": "AB2-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC702",
+            "room": "AB2-703"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC701",
+            "room": "AB2-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC702",
+            "room": "AB2-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC703",
+            "room": "AB2-703"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "EC701",
+            "room": "ECE Lab 7"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EC702",
+            "room": "AB2-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EC703",
+            "room": "AB2-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EC701",
+            "room": "AB2-703"
+          }
+        ]
+      }
+    },
+    "EEE": {
+      "1": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE101",
+            "room": "AB2-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE102",
+            "room": "AB2-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE103",
+            "room": "AB2-103"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE102",
+            "room": "AB2-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE103",
+            "room": "AB2-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE104",
+            "room": "AB2-103"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "GE101",
+            "room": "EEE Lab 1"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE103",
+            "room": "AB2-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE104",
+            "room": "AB2-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE101",
+            "room": "AB2-103"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE104",
+            "room": "AB2-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE101",
+            "room": "AB2-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE102",
+            "room": "AB2-103"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "GE101",
+            "room": "EEE Lab 1"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE101",
+            "room": "AB2-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE102",
+            "room": "AB2-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE103",
+            "room": "AB2-103"
+          }
+        ]
+      },
+      "3": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE301",
+            "room": "AB2-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE302",
+            "room": "AB2-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE303",
+            "room": "AB2-303"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE302",
+            "room": "AB2-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE303",
+            "room": "AB2-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE301",
+            "room": "AB2-303"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "EE301",
+            "room": "EEE Lab 3"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE303",
+            "room": "AB2-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE301",
+            "room": "AB2-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE302",
+            "room": "AB2-303"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE301",
+            "room": "AB2-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE302",
+            "room": "AB2-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE303",
+            "room": "AB2-303"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "EE301",
+            "room": "EEE Lab 3"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE302",
+            "room": "AB2-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE303",
+            "room": "AB2-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE301",
+            "room": "AB2-303"
+          }
+        ]
+      },
+      "5": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE501",
+            "room": "AB2-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE502",
+            "room": "AB2-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE503",
+            "room": "AB2-503"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE502",
+            "room": "AB2-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE503",
+            "room": "AB2-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE501",
+            "room": "AB2-503"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "EE501",
+            "room": "EEE Lab 5"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE503",
+            "room": "AB2-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE501",
+            "room": "AB2-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE502",
+            "room": "AB2-503"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE501",
+            "room": "AB2-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE502",
+            "room": "AB2-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE503",
+            "room": "AB2-503"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "EE501",
+            "room": "EEE Lab 5"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE502",
+            "room": "AB2-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE503",
+            "room": "AB2-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE501",
+            "room": "AB2-503"
+          }
+        ]
+      },
+      "7": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE701",
+            "room": "AB2-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE702",
+            "room": "AB2-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE703",
+            "room": "AB2-703"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE702",
+            "room": "AB2-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE703",
+            "room": "AB2-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE701",
+            "room": "AB2-703"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "EE701",
+            "room": "EEE Lab 7"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE703",
+            "room": "AB2-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE701",
+            "room": "AB2-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE702",
+            "room": "AB2-703"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE701",
+            "room": "AB2-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE702",
+            "room": "AB2-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE703",
+            "room": "AB2-703"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "EE701",
+            "room": "EEE Lab 7"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "EE702",
+            "room": "AB2-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "EE703",
+            "room": "AB2-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "EE701",
+            "room": "AB2-703"
+          }
+        ]
+      }
+    },
+    "ME": {
+      "1": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE101",
+            "room": "AB3-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE102",
+            "room": "AB3-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE103",
+            "room": "AB3-103"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE102",
+            "room": "AB3-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE103",
+            "room": "AB3-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE104",
+            "room": "AB3-103"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "GE101",
+            "room": "ME Lab 1"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE103",
+            "room": "AB3-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE104",
+            "room": "AB3-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE101",
+            "room": "AB3-103"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE104",
+            "room": "AB3-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE101",
+            "room": "AB3-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE102",
+            "room": "AB3-103"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "GE101",
+            "room": "ME Lab 1"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE101",
+            "room": "AB3-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE102",
+            "room": "AB3-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE103",
+            "room": "AB3-103"
+          }
+        ]
+      },
+      "3": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME301",
+            "room": "AB3-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME302",
+            "room": "AB3-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME303",
+            "room": "AB3-303"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME302",
+            "room": "AB3-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME303",
+            "room": "AB3-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME301",
+            "room": "AB3-303"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "ME301",
+            "room": "ME Lab 3"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME303",
+            "room": "AB3-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME301",
+            "room": "AB3-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME302",
+            "room": "AB3-303"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME301",
+            "room": "AB3-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME302",
+            "room": "AB3-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME303",
+            "room": "AB3-303"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "ME301",
+            "room": "ME Lab 3"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME302",
+            "room": "AB3-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME303",
+            "room": "AB3-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME301",
+            "room": "AB3-303"
+          }
+        ]
+      },
+      "5": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME501",
+            "room": "AB3-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME502",
+            "room": "AB3-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME503",
+            "room": "AB3-503"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME502",
+            "room": "AB3-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME503",
+            "room": "AB3-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME501",
+            "room": "AB3-503"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "ME501",
+            "room": "ME Lab 5"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME503",
+            "room": "AB3-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME501",
+            "room": "AB3-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME502",
+            "room": "AB3-503"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME501",
+            "room": "AB3-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME502",
+            "room": "AB3-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME503",
+            "room": "AB3-503"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "ME501",
+            "room": "ME Lab 5"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME502",
+            "room": "AB3-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME503",
+            "room": "AB3-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME501",
+            "room": "AB3-503"
+          }
+        ]
+      },
+      "7": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME701",
+            "room": "AB3-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME702",
+            "room": "AB3-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME703",
+            "room": "AB3-703"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME702",
+            "room": "AB3-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME703",
+            "room": "AB3-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME701",
+            "room": "AB3-703"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "ME701",
+            "room": "ME Lab 7"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME703",
+            "room": "AB3-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME701",
+            "room": "AB3-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME702",
+            "room": "AB3-703"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME701",
+            "room": "AB3-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME702",
+            "room": "AB3-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME703",
+            "room": "AB3-703"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "ME701",
+            "room": "ME Lab 7"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "ME702",
+            "room": "AB3-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "ME703",
+            "room": "AB3-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "ME701",
+            "room": "AB3-703"
+          }
+        ]
+      }
+    },
+    "CE": {
+      "1": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE101",
+            "room": "AB3-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE102",
+            "room": "AB3-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE103",
+            "room": "AB3-103"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE102",
+            "room": "AB3-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE103",
+            "room": "AB3-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE104",
+            "room": "AB3-103"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "GE101",
+            "room": "CE Lab 1"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE103",
+            "room": "AB3-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE104",
+            "room": "AB3-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE101",
+            "room": "AB3-103"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE104",
+            "room": "AB3-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE101",
+            "room": "AB3-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE102",
+            "room": "AB3-103"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "GE101",
+            "room": "CE Lab 1"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "GE101",
+            "room": "AB3-101"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "GE102",
+            "room": "AB3-102"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "GE103",
+            "room": "AB3-103"
+          }
+        ]
+      },
+      "3": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE301",
+            "room": "AB3-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE302",
+            "room": "AB3-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE303",
+            "room": "AB3-303"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE302",
+            "room": "AB3-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE303",
+            "room": "AB3-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE301",
+            "room": "AB3-303"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "CE301",
+            "room": "CE Lab 3"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE303",
+            "room": "AB3-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE301",
+            "room": "AB3-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE302",
+            "room": "AB3-303"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE301",
+            "room": "AB3-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE302",
+            "room": "AB3-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE303",
+            "room": "AB3-303"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "CE301",
+            "room": "CE Lab 3"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE302",
+            "room": "AB3-301"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE303",
+            "room": "AB3-302"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE301",
+            "room": "AB3-303"
+          }
+        ]
+      },
+      "5": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE501",
+            "room": "AB3-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE502",
+            "room": "AB3-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE503",
+            "room": "AB3-503"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE502",
+            "room": "AB3-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE503",
+            "room": "AB3-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE501",
+            "room": "AB3-503"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "CE501",
+            "room": "CE Lab 5"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE503",
+            "room": "AB3-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE501",
+            "room": "AB3-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE502",
+            "room": "AB3-503"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE501",
+            "room": "AB3-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE502",
+            "room": "AB3-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE503",
+            "room": "AB3-503"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "CE501",
+            "room": "CE Lab 5"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE502",
+            "room": "AB3-501"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE503",
+            "room": "AB3-502"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE501",
+            "room": "AB3-503"
+          }
+        ]
+      },
+      "7": {
+        "Monday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE701",
+            "room": "AB3-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE702",
+            "room": "AB3-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE703",
+            "room": "AB3-703"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE702",
+            "room": "AB3-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE703",
+            "room": "AB3-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE701",
+            "room": "AB3-703"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "CE701",
+            "room": "CE Lab 7"
+          }
+        ],
+        "Wednesday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE703",
+            "room": "AB3-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE701",
+            "room": "AB3-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE702",
+            "room": "AB3-703"
+          }
+        ],
+        "Thursday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE701",
+            "room": "AB3-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE702",
+            "room": "AB3-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE703",
+            "room": "AB3-703"
+          },
+          {
+            "time": "13:30-16:20 (Lab)",
+            "course_code": "CE701",
+            "room": "CE Lab 7"
+          }
+        ],
+        "Friday": [
+          {
+            "time": "09:00-09:50",
+            "course_code": "CE702",
+            "room": "AB3-701"
+          },
+          {
+            "time": "10:00-10:50",
+            "course_code": "CE703",
+            "room": "AB3-702"
+          },
+          {
+            "time": "11:10-12:00",
+            "course_code": "CE701",
+            "room": "AB3-703"
+          }
+        ]
+      }
+    }
+  },
+  "results": {
+    "published": {
+      "2": "2026-06-20",
+      "4": "2026-06-22",
+      "6": "2026-06-25",
+      "8": "2026-06-18"
+    },
+    "odd_semester_expected": "2027-01-15",
+    "revaluation": {
+      "window_days": 7,
+      "fee_per_course_inr": 500,
+      "process": "Apply on the portal under Examinations > Revaluation within 7 days of result publication."
+    },
+    "pass_percentage": {
+      "CSE": 91.4,
+      "ECE": 88.7,
+      "EEE": 86.2,
+      "ME": 84.9,
+      "CE": 87.3
+    }
+  },
+  "attendance_policy": {
+    "minimum_percent": 75,
+    "condonation_percent": 65,
+    "condonation_note": "Students between 65% and 75% may apply for condonation with valid medical or on-duty documents.",
+    "department_average": {
+      "CSE": 86.1,
+      "ECE": 84.3,
+      "EEE": 82.8,
+      "ME": 80.5,
+      "CE": 83.2
+    },
+    "students_below_minimum": {
+      "CSE": 14,
+      "ECE": 11,
+      "EEE": 9,
+      "ME": 17,
+      "CE": 8
+    }
+  },
+  "profiles": {
+    "student": {
+      "name": "Demo Student",
+      "id": "EU23CSE042",
+      "department": "CSE",
+      "semester": 5,
+      "cgpa": 8.42,
+      "last_sgpa": {
+        "4": 8.61,
+        "3": 8.27
+      },
+      "attendance": {
+        "CS501": 88.0,
+        "CS502": 79.5,
+        "CS503": 72.0
+      }
+    },
+    "faculty": {
+      "name": "Demo Faculty",
+      "id": "EUF1187",
+      "department": "CSE",
+      "designation": "Assistant Professor",
+      "courses": [
+        "CS501",
+        "CS303"
+      ],
+      "leave_balance": {
+        "casual": 6,
+        "earned": 18,
+        "duty": 10
+      },
+      "class_attendance": {
+        "CS501": 84.6,
+        "CS303": 87.9
+      }
+    },
+    "administrator": {
+      "name": "Demo Admin",
+      "id": "EUA0031",
+      "office": "Office of Academic Affairs"
+    }
+  },
+  "admissions": {
+    "cycle": "2027-28",
+    "programs": {
+      "BTECH": {
+        "name": "B.Tech (4 years)",
+        "eligibility": "10+2 with Physics, Chemistry and Mathematics, minimum 60% aggregate (55% for reserved categories), plus a valid EU Engineering Entrance (EUEE) or JEE Main score.",
+        "tuition_per_year_inr": 225000,
+        "application_fee_inr": 1200,
+        "deadline": "2027-04-30",
+        "opens": "2026-12-01",
+        "entrance": "EUEE: 2027-05-18 (online, 3 hours)"
+      },
+      "MTECH": {
+        "name": "M.Tech (2 years)",
+        "eligibility": "B.E./B.Tech in a relevant discipline with minimum 60% or CGPA 6.5; valid GATE score preferred, otherwise EU written test and interview.",
+        "tuition_per_year_inr": 160000,
+        "application_fee_inr": 1000,
+        "deadline": "2027-05-31",
+        "opens": "2027-01-15",
+        "entrance": "GATE score or EU test on 2027-06-12"
+      },
+      "MBA": {
+        "name": "MBA (2 years)",
+        "eligibility": "Any bachelor's degree with minimum 50%; CAT/MAT/XAT score, followed by group discussion and interview.",
+        "tuition_per_year_inr": 300000,
+        "application_fee_inr": 1500,
+        "deadline": "2027-03-15",
+        "opens": "2026-10-01",
+        "entrance": "GD/PI rounds in April 2027"
+      },
+      "PHD": {
+        "name": "Ph.D.",
+        "eligibility": "Master's degree with minimum 60% (or CGPA 6.5); NET/GATE qualified candidates are exempt from the written test.",
+        "tuition_per_year_inr": 60000,
+        "application_fee_inr": 1000,
+        "deadline": "2027-06-30",
+        "opens": "2027-03-01",
+        "entrance": "Written test and research interview, July 2027"
+      }
+    },
+    "scholarships": [
+      "Merit scholarship: up to 50% tuition waiver for top 5% EUEE rank holders",
+      "Need-based fee concession for family income under INR 5 lakh per year",
+      "Sports and cultural excellence awards"
+    ],
+    "installments": "Tuition can be paid in two instalments per year (July and January).",
+    "documents": [
+      "Class 10 and Class 12 mark sheets",
+      "Entrance exam score card (EUEE/JEE/GATE/CAT as applicable)",
+      "Transfer certificate and migration certificate",
+      "Government photo ID (e.g. Aadhaar card or passport)",
+      "Four recent passport-size photographs",
+      "Category/community certificate (if applicable)",
+      "Medical fitness certificate",
+      "Degree certificate and transcripts (PG and Ph.D. applicants)"
+    ],
+    "statistics": {
+      "as_of": "2026-10-20",
+      "applications": {
+        "BTECH": 18450,
+        "MTECH": 1320,
+        "MBA": 2675,
+        "PHD": 410
+      },
+      "seats": {
+        "CSE": 180,
+        "ECE": 120,
+        "EEE": 60,
+        "ME": 90,
+        "CE": 60
+      },
+      "filled_last_cycle": {
+        "CSE": 180,
+        "ECE": 118,
+        "EEE": 52,
+        "ME": 74,
+        "CE": 49
+      },
+      "previous_cycle_applications": {
+        "BTECH": 16980,
+        "MTECH": 1405,
+        "MBA": 2410,
+        "PHD": 388
+      }
+    },
+    "staff_ward_concession": "Children of Example University employees receive a 25% tuition concession."
+  },
+  "academic_admin": {
+    "grade_submission": {
+      "internal_marks_deadline": "2026-11-14",
+      "final_grades_deadline": "2026-12-22",
+      "portal_path": "Faculty Portal > Assessments > Grade Entry",
+      "edit_policy": "Grades can be edited until you click 'Freeze'. After freezing, corrections need HoD approval via a grade change request."
+    },
+    "leave_policy": {
+      "apply_path": "Faculty Portal > HR > Leave Request",
+      "approver": "Head of Department, then the Dean for leave longer than 3 days",
+      "notes": "Arrange class substitution in the portal before submitting. Leave during examination duty requires the Controller of Examinations' approval."
+    },
+    "notice_publishing": {
+      "path": "Admin Console > Notices > New Notice",
+      "audiences": [
+        "All",
+        "Students",
+        "Faculty",
+        "Department-specific"
+      ],
+      "approval": "Notices to 'All' are reviewed by the Registrar's office before going live.",
+      "pending_approval": 3
+    }
+  },
+  "notices": [
+    {
+      "date": "2026-10-21",
+      "title": "Hall tickets for end-semester exams will be available from 16 November",
+      "audience": "Students"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Campus closed on 2 November (public holiday)",
+      "audience": "All"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "TechFest 2026 registrations open (event: 5-7 November)",
+      "audience": "All"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Internal marks upload deadline: 14 November",
+      "audience": "Faculty"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Library extended hours during exam season start 15 November",
+      "audience": "All"
+    }
+  ],
+  "campus_services": {
+    "library": {
+      "timings": "Mon-Sat 08:00-22:00, Sun 10:00-17:00 (24x7 reading room during exams)",
+      "borrow_limit": {
+        "student": 4,
+        "faculty": 10,
+        "administrator": 4
+      },
+      "loan_days": {
+        "student": 14,
+        "faculty": 60,
+        "administrator": 14
+      },
+      "fine_per_day_inr": 2,
+      "eresources": "IEEE Xplore, ACM DL, Springer and NPTEL via campus network or the library VPN",
+      "location": "Central Library, Block C"
+    },
+    "hostel": {
+      "capacity": "Separate boys' and girls' hostels with 2,400 beds in total",
+      "rooms": "Double and triple sharing; limited single rooms for final-year students",
+      "fee_per_year_inr": 95000,
+      "fee_includes": "Room, mess (4 meals/day), Wi-Fi and laundry twice a week",
+      "in_time": "21:30 (22:30 on weekends)",
+      "apply": "Apply under Student Portal > Hostel > Room Request; allotment is by first-come, first-served with priority for first years.",
+      "warden_office": "Hostel Office, Block H, ext. 2210",
+      "role_notes": {
+        "faculty": "Faculty and staff quarters are handled by the Estate Office (ext. 2150), not the student hostel office.",
+        "administrator": "Current occupancy is 2,212 of 2,400 beds (92%). Allotment reports are under Admin Console > Hostel."
+      }
+    },
+    "transport": {
+      "routes": [
+        {
+          "route": "R1",
+          "via": "City Bus Stand - Central Station - Campus",
+          "first_pickup": "07:10"
+        },
+        {
+          "route": "R2",
+          "via": "Lakeview - Tech Park - Campus",
+          "first_pickup": "07:20"
+        },
+        {
+          "route": "R3",
+          "via": "Old Town - Market Road - Campus",
+          "first_pickup": "07:00"
+        }
+      ],
+      "departures_from_campus": [
+        "16:40",
+        "17:45",
+        "19:00 (late bus, Mon-Fri)"
+      ],
+      "fee_per_year_inr": 28000,
+      "pass": "Apply under Student Portal > Transport; passes are issued within 3 working days.",
+      "office": "Transport Office, Main Gate, ext. 2105",
+      "role_notes": {
+        "faculty": "Staff may use any route; the annual fee is deducted from salary once you opt in on the HR portal.",
+        "administrator": "Route changes are approved by the Transport Committee; ridership reports are under Admin Console > Transport."
+      }
+    },
+    "canteen": {
+      "outlets": [
+        {
+          "name": "Main Canteen",
+          "timings": "07:30-21:00"
+        },
+        {
+          "name": "Food Court (Block B)",
+          "timings": "10:00-22:00"
+        },
+        {
+          "name": "Night Canteen (near hostels)",
+          "timings": "21:00-01:00"
+        },
+        {
+          "name": "Coffee Corner (Library)",
+          "timings": "08:00-20:00"
+        }
+      ],
+      "notes": "Vegetarian and non-vegetarian options; UPI and campus ID card payments accepted. Meals from INR 40."
+    },
+    "wifi": {
+      "ssid": "EU-Secure",
+      "guest_ssid": "EU-Guest",
+      "login": "Sign in with your portal ID and password (WPA2-Enterprise / PEAP).",
+      "devices": {
+        "student": 3,
+        "faculty": 5,
+        "administrator": 5
+      },
+      "eduroam": true,
+      "helpdesk": "IT Helpdesk, Block A ground floor, ext. 2000 or it-help@example.edu",
+      "reset": "Reset your network password from Portal > Account > Security."
+    },
+    "medical": {
+      "centre": "University Health Centre, near Gate 2",
+      "timings": "08:00-20:00 with a doctor; nurse on call 24x7",
+      "emergency": "Campus emergency line ext. 2999 (24x7) or 108 for an ambulance",
+      "insurance": "All students are covered by group health insurance up to INR 2 lakh.",
+      "counselling": "Free and confidential counselling at the Wellness Centre, Mon-Fri 10:00-17:00; book via portal.",
+      "hospital": "Example City General Hospital (tie-up), 4 km from campus",
+      "role_notes": {
+        "student": "Medical leave of more than 3 days needs a certificate from the Health Centre for attendance condonation.",
+        "faculty": "Staff are covered by the employee health scheme; claims go through the HR portal."
+      }
+    }
+  }
+}
