@@ -1,0 +1,457 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "suggestion": "Hi",
+      "patterns": [
+        "hi", "hello", "hey", "hey there", "hello there", "hi bot", "good morning", "good afternoon", "good evening",
+        "hiya", "greetings", "yo", "hello assistant", "hi, is anyone there?", "hey, can you help me", "morning!",
+        "namaste", "hi there, I need some help", "hello, I have a question", "howdy", "what's up", "hey chatbot",
+        "hello good morning", "hi team", "heyy", "helo", "hii", "hello, good evening", "hey good morning",
+        "hi, good afternoon", "hello hello", "hey, how are you", "hi, how are you doing", "hello, how's it going",
+        "hey yo", "yo bot", "namaste, I have a doubt", "howdy there", "what's up bot", "sup", "hi there",
+        "hey, I need a little help", "hello, can you help", "hey assistant", "good morning bot", "hi! I'm new here",
+        "greetings, assistant"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "suggestion": "Bye",
+      "patterns": [
+        "bye", "goodbye", "see you", "see you later", "bye bye", "talk to you later", "good night",
+        "that's all for now", "I'm done", "catch you later", "gotta go", "exit", "quit", "see ya", "have a nice day",
+        "bye for now", "I will leave now", "ok bye", "that is all, goodbye", "end chat", "signing off", "later",
+        "cya", "good bye then", "ok see you", "see you tomorrow", "good night bot", "night night",
+        "that's all for today", "I'm done for now", "I'm done here", "gotta go now", "I have to go", "exit chat",
+        "quit chat", "close the chat", "end the conversation", "have a good day", "have a great day",
+        "I'll leave now, bye", "leaving now", "signing off now, bye", "bye, take care", "take care",
+        "until next time", "peace out", "that is it, bye"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "suggestion": "Thanks!",
+      "patterns": [
+        "thanks", "thank you", "thanks a lot", "thank you so much", "thx", "ty", "much appreciated",
+        "that was helpful", "great, thanks", "awesome thank you", "cool thanks", "perfect, thanks",
+        "thanks for the help", "you've been very helpful", "appreciate it", "nice, thank you", "thanks buddy",
+        "that helps a lot", "ok thanks", "many thanks", "super helpful thanks", "thank u", "tysm", "got it, thanks",
+        "thx a lot", "thanks mate", "much appreciated, thanks", "really appreciate it", "I appreciate the help",
+        "that helps, thank you", "that was useful", "very helpful", "thank you, that helps", "great help", "cheers",
+        "cheers mate", "thanks a ton", "you're awesome, thanks", "brilliant, thank you",
+        "thanks, that answers my question", "wonderful, thanks", "nice one, thanks"
+      ]
+    },
+    {
+      "tag": "help",
+      "suggestion": "What can you do?",
+      "patterns": [
+        "what can you do", "help", "how can you help me", "what do you know", "what are your features",
+        "what can I ask you", "show me what you can do", "list your capabilities", "what topics do you cover",
+        "I need help", "menu", "options", "what services do you offer", "how does this chatbot work",
+        "what questions can you answer", "can you help me with something", "what are you able to do",
+        "give me some examples of questions", "what kind of queries do you handle", "who are you",
+        "what is this bot", "how do I use this", "show options", "help me please", "help me",
+        "I need help with the portal", "can you help", "show the menu", "main menu", "what are the options",
+        "list your features", "list what you can do", "capabilities", "examples of questions I can ask",
+        "give me examples", "who are you exactly", "what are you", "what is this chatbot",
+        "what is this assistant for", "tell me what you can do", "how can this bot help me",
+        "what can you help me with", "which topics can I ask about", "how does this work", "what should I ask",
+        "guide me"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "suggestion": "",
+      "patterns": [
+        "what's the weather like today", "tell me a joke", "who won the cricket match yesterday",
+        "what is the capital of france", "play some music", "can you order pizza for me",
+        "what is the meaning of life", "book a movie ticket", "how tall is mount everest",
+        "who is the prime minister", "recommend a good netflix series", "what's the bitcoin price", "sing a song",
+        "do you like dogs", "what's your favourite colour", "translate hello to spanish", "how do I bake a cake",
+        "is it going to rain tomorrow", "tell me a fun fact about space", "what time is it in london",
+        "can you write my essay", "what is 25 times 4", "suggest a good restaurant nearby", "how old are you",
+        "are you a robot", "asdfgh qwerty", "blah blah", "lol", "hmm", "random stuff",
+        "who is the best football player", "what's trending on social media", "how do I fix my car",
+        "show me cat pictures", "order a pizza", "can you book a cab for me", "book flight tickets",
+        "recommend a movie", "recommend a song", "do you like cats", "what's your favourite food",
+        "translate this sentence to french", "will it rain today", "weather forecast", "what time is it in new york",
+        "write a poem for me", "do my homework", "what's 2 plus 2", "find a restaurant", "where can I buy shoes",
+        "are you human", "are you alive", "what's your name", "how old is the earth", "blah", "hmmm", "ok", "random",
+        "nothing", "test", "who will win the election", "latest movie releases", "how to repair my bike",
+        "show me memes", "play a game with me", "tell me a story", "stock market today", "how do I cook rice",
+        "fix my phone", "what is love", "cricket score", "football results"
+      ]
+    },
+    {
+      "tag": "exam_schedule",
+      "suggestion": "What's the exam schedule for CSE?",
+      "patterns": [
+        "what's the exam schedule for CSE", "when are the end semester exams", "exam timetable please",
+        "when do exams start", "show me the exam dates for ECE", "end sem exam schedule for mechanical",
+        "exam schedule for semester 5", "when is the CS301 exam", "date sheet for EEE semester 3",
+        "when are the finals", "final exam schedule", "exam dates for civil engineering", "is the exam schedule out",
+        "has the exam timetable been released", "when is my next exam", "upcoming exams for computer science",
+        "examination schedule for sem 7", "when are the mid sem exams", "exam calendar",
+        "what are the dates of the semester exams", "when will the exams begin for 3rd sem",
+        "datesheet for electronics", "can you share the exam schedule", "exam dates for the odd semester",
+        "on which date is the data structures exam", "end-semester examination dates CSE sem 5",
+        "tell me the exam schedule", "exam timings", "what time does the exam start", "which day is the ME305 exam",
+        "show exam timetable for ECE 5th semester", "exams schedule", "when are the december exams",
+        "exam timetable for CSE", "exam time table for semester 3", "date sheet for CSE", "date sheet please",
+        "datesheet for semester 5", "show me the date sheet", "exam date sheet for ECE",
+        "end semester exam timetable", "when is the operating systems exam", "when is the exam for CS501",
+        "exam dates", "exam schedule please", "when do the end sem exams begin",
+        "when are the semester end examinations", "what is the exam schedule", "exam timetable for ECE 5th semester",
+        "schedule of exams for civil", "final exams date", "when is my exam", "hall ticket and exam dates"
+      ]
+    },
+    {
+      "tag": "timetable",
+      "suggestion": "Show the class timetable for CSE semester 5",
+      "patterns": [
+        "show me the class timetable", "what's the timetable for CSE semester 5", "class schedule for ECE sem 3",
+        "what classes do I have on monday", "weekly timetable", "lecture schedule for mechanical 7th sem",
+        "when is the data structures lecture", "what are my classes today", "timetable for civil semester 3",
+        "class routine for EEE", "which lectures are on wednesday", "period wise timetable",
+        "time table for 5th semester computer science", "what time do classes start",
+        "where can I find the class timetable", "show weekly class schedule", "lab timings for CSE",
+        "what is the lecture timing", "my class schedule for this week", "timetable please",
+        "do we have classes on saturday", "hours of lectures for sem 7 ECE", "course timetable",
+        "class timings for first year", "practical lab schedule", "what is the schedule of lectures",
+        "timetable of electronics department", "which room is my class in", "when is the operating systems lecture",
+        "when is the CS501 class", "lab schedule for semester 5", "practical schedule", "lab timetable",
+        "when are the labs", "class timetable for ECE", "what lectures do I have tomorrow", "my lectures for friday",
+        "class time table", "class schedule please", "weekly class routine", "which period is data structures",
+        "lecture timings for semester 3", "show the class routine for CSE sem 5",
+        "teaching schedule for this semester", "when is my next class", "classes on thursday",
+        "room number for my lecture"
+      ]
+    },
+    {
+      "tag": "results",
+      "suggestion": {"student": "Are the semester 4 results out?", "faculty": "Show result analysis for my department", "administrator": "Show pass percentage by department"},
+      "patterns": [
+        "are the results out", "when will results be declared", "show my results", "semester 4 results",
+        "how do I check my result", "what's my CGPA", "my grades for last semester", "result for sem 6",
+        "has the result been published", "pass percentage for CSE", "results announcement",
+        "where can I see my marks", "what's my SGPA", "check exam results", "I want to see my grade card",
+        "when will the end sem results come", "result analysis for ECE", "how did the class perform",
+        "how do I apply for revaluation", "revaluation process", "marksheet download", "my GPA", "result status",
+        "did I pass", "grade report", "class results for CS301", "overall results statistics",
+        "semester results of mechanical department", "show my grades", "my grades", "my marks",
+        "where can I see my grades", "see my marks for semester 4", "grade card", "download grade card",
+        "download marksheet", "mark sheet", "my report card", "show my result", "semester result",
+        "results of last semester", "revaluation", "apply for revaluation", "how to apply for re-evaluation",
+        "rechecking of answer sheets", "pass percentage", "class pass percentage",
+        "how did students perform in the exams", "result analysis", "results declared",
+        "when will the result come out", "cgpa", "what is my sgpa for semester 3", "what grade did I get"
+      ]
+    },
+    {
+      "tag": "attendance",
+      "suggestion": {"student": "What's my attendance?", "faculty": "Show attendance for my classes", "administrator": "Show the attendance overview"},
+      "patterns": [
+        "what's my attendance", "check my attendance", "attendance percentage", "how many classes have I missed",
+        "am I eligible to write exams based on attendance", "minimum attendance required", "attendance in CS301",
+        "attendance shortage", "show attendance report", "my attendance for this semester",
+        "what is the attendance policy", "how do I mark attendance", "class attendance summary",
+        "attendance for my course", "is 70 percent attendance enough", "attendance criteria",
+        "how many students have low attendance", "department attendance statistics", "attendance records",
+        "can I get condonation for attendance", "how much attendance do I have", "do I have enough attendance",
+        "attendance status", "upload attendance", "students below 75 percent", "attendance of CSE department",
+        "how many classes did I miss", "how many lectures have I missed", "classes missed",
+        "attendance in operating systems", "is my attendance enough for exams", "attendance shortage warning",
+        "students with attendance below 75", "how many students are short of attendance", "low attendance students",
+        "attendance percentage required", "minimum attendance", "what's the attendance rule",
+        "mark attendance for my class", "take attendance", "attendance report for CSE", "my attendance in CS502",
+        "attendance details", "condonation of attendance", "average attendance"
+      ]
+    },
+    {
+      "tag": "admission_eligibility",
+      "suggestion": "What is the eligibility for B.Tech admission?",
+      "patterns": [
+        "what is the eligibility for btech", "admission eligibility criteria", "who can apply for mtech",
+        "eligibility for MBA admission", "minimum marks required for admission",
+        "can I apply with 60 percent in 12th", "what are the requirements to get admission",
+        "entrance exam required for btech", "is JEE score accepted", "eligibility for phd",
+        "qualification needed for M.Tech", "admission criteria for B.Tech CSE", "am I eligible for admission",
+        "what percentage is needed in class 12", "do I need GATE for mtech", "is there an age limit for admission",
+        "admission requirements", "who is eligible to join", "entrance test for MBA", "can diploma holders apply",
+        "lateral entry eligibility", "how do I get admission", "what is the selection process",
+        "is CAT score required for mba", "requirements for doctoral programme", "is JEE main accepted",
+        "do you accept JEE scores", "qualification required for mtech", "what qualification do I need",
+        "minimum percentage in 12th", "required percentage in class 12", "who can join btech",
+        "who is eligible for mba", "eligibility for diploma holders", "can I join after diploma",
+        "how can I get admission", "how to get admission in btech", "admission process", "selection criteria",
+        "how are students selected", "is there an entrance exam", "entrance exam for admission",
+        "eligibility criteria for phd", "am I eligible for mtech without gate", "eligibility",
+        "criteria for admission"
+      ]
+    },
+    {
+      "tag": "admission_deadlines",
+      "suggestion": "When is the last date to apply?",
+      "patterns": [
+        "when is the last date to apply", "admission deadline", "application deadline for btech",
+        "when do admissions open", "last date for mtech application", "when does the application close",
+        "admission dates 2027", "is the admission portal open", "when is counselling", "important admission dates",
+        "deadline to submit application form", "mba application last date", "when will admissions start",
+        "can I still apply", "phd application deadline", "admission schedule", "when is the entrance exam",
+        "application window", "when does the session start for new students", "when is the admission process",
+        "last day to apply for B.Tech", "when do classes begin for freshers", "key dates for admission",
+        "when is the admission counselling", "counselling dates", "deadline for the application form",
+        "last date to submit the application", "when do admissions start", "when will the admission process begin",
+        "admission timeline", "admission calendar", "entrance exam date", "when is the EUEE exam",
+        "when does the academic year start for freshers", "when do first year classes start", "last day to apply",
+        "last date for btech admission", "application deadline", "is it too late to apply",
+        "when does the admission portal close", "application closing date", "deadline for mba admission",
+        "opening date for applications"
+      ]
+    },
+    {
+      "tag": "admission_fees",
+      "suggestion": "What is the fee structure for B.Tech?",
+      "patterns": [
+        "what is the fee structure", "how much is the btech fee", "tuition fees for mtech", "mba course fee",
+        "fee per semester", "total fees for 4 years", "are there any scholarships", "fee concession",
+        "what is the annual fee", "application fee", "how much does the course cost", "fee for phd",
+        "can I pay fees in installments", "hostel fee included in tuition", "scholarship for merit students",
+        "fee details", "payment of fees", "how to pay the fees", "is there any fee waiver",
+        "cost of studying btech CSE", "what are the charges", "semester fee amount", "fees breakdown",
+        "education loan options", "is there a refund policy for fees", "how much does btech cost",
+        "cost of the course", "cost of studying here", "what are the fee charges", "total cost", "education loan",
+        "bank loan for fees", "loan facility", "is hostel fee separate from tuition", "tuition fee",
+        "tuition fee per year", "fees for btech CSE", "fee for mba", "how much are the fees", "scholarship",
+        "scholarships available", "merit scholarship", "fee installments", "fee refund", "application fee amount",
+        "annual tuition"
+      ]
+    },
+    {
+      "tag": "admission_documents",
+      "suggestion": "Which documents are needed for admission?",
+      "patterns": [
+        "which documents are needed for admission", "documents required", "what certificates should I bring",
+        "list of documents for btech admission", "documents for mtech application",
+        "do I need a transfer certificate", "what papers are needed at the time of joining",
+        "required documents for mba", "do I need my aadhaar card", "is migration certificate required",
+        "document verification", "what should I carry for counselling", "documents checklist",
+        "do I need passport size photos", "certificates needed for phd admission",
+        "what documents to upload in the application", "is a medical certificate needed", "marksheets required",
+        "do I need original documents", "documents for reporting day", "income certificate for scholarship",
+        "proof of identity needed", "community certificate", "is aadhaar required",
+        "aadhaar card needed for admission", "what should I bring for counselling",
+        "documents to carry for counselling", "medical fitness certificate",
+        "do I need a medical certificate for admission", "mark sheets needed", "which marksheets are required",
+        "documents needed", "required certificates", "what documents do I need", "list of documents",
+        "document list for mba admission", "documents for joining", "certificate verification",
+        "transfer certificate", "migration certificate", "photos for admission", "category certificate"
+      ]
+    },
+    {
+      "tag": "course_details",
+      "suggestion": "Tell me about CS301",
+      "patterns": [
+        "tell me about CS301", "course details for EC305", "what is taught in data structures", "syllabus of CS302",
+        "how many credits is ME305", "what courses are offered in CSE semester 5", "list of subjects for ECE sem 3",
+        "prerequisites for CS401", "course description", "what subjects are there in 7th semester",
+        "course outline for operating systems", "electives available", "what will I study in mechanical engineering",
+        "credits for EE301", "courses in civil semester 5", "who teaches CS301", "subjects this semester",
+        "what is the course code for machine learning", "is CE303 a lab course", "course structure of btech CSE",
+        "curriculum for electronics", "what are the core courses", "details of the database course",
+        "tell me about the course EC301", "syllabus", "course information", "which subjects are in semester 3",
+        "what is taught in operating systems", "what is covered in CS501", "topics in data structures", "electives",
+        "what electives are available", "open electives list", "course structure", "curriculum",
+        "curriculum for CSE", "courses for electronics semester 5", "subjects for civil 3rd sem",
+        "what subjects do I have this semester", "syllabus for CS701", "syllabus of machine learning",
+        "course credits", "how many credits", "prerequisites", "what are the prerequisites for CS703",
+        "details about the course", "courses offered", "what courses are offered", "list of courses in semester 7",
+        "subjects in sem 5 ECE", "tell me about the subject"
+      ]
+    },
+    {
+      "tag": "library",
+      "suggestion": "What are the library timings?",
+      "patterns": [
+        "what are the library timings", "is the library open on sunday", "how many books can I borrow",
+        "library hours", "how to renew a book", "library fine for late return", "can I access e-journals",
+        "digital library access", "where is the library", "how do I get a library card", "issue a book",
+        "return book", "library membership", "is there a reading room", "how long can I keep a book",
+        "IEEE access from campus", "library rules", "book reservation", "central library timings",
+        "can faculty borrow more books", "library overdue charges", "search library catalogue",
+        "is the library open during exams", "previous year question papers in library", "e-journals access",
+        "access e-resources", "online journals", "IEEE xplore access", "reading room", "reading room timings",
+        "study room in library", "library open hours", "when does the library close", "when does the library open",
+        "borrow books", "borrowing limit", "how many books can faculty issue", "book renewal",
+        "renew my library book", "late return fine", "library fine", "where is the central library",
+        "find a book in the library", "library catalogue"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "suggestion": "Tell me about hostel facilities",
+      "patterns": [
+        "tell me about hostel facilities", "how do I apply for hostel", "hostel fees",
+        "is hostel available for first years", "hostel rules", "hostel curfew timing", "room allotment",
+        "hostel mess menu", "are rooms shared", "girls hostel", "boys hostel", "hostel warden contact",
+        "can I change my hostel room", "is there AC in hostel rooms", "hostel accommodation",
+        "how much is the hostel per year", "hostel in time", "laundry in hostel", "hostel vacancy",
+        "is hostel mandatory", "hostel leave", "guest stay in hostel", "hostel maintenance complaint",
+        "dormitory facilities", "room allotment process", "hostel room allotment", "are hostel rooms shared",
+        "single room in hostel", "sharing rooms", "hostel room", "hostel admission", "apply for a hostel room",
+        "hostel fee per year", "how much is hostel", "hostel timings", "hostel in-time", "curfew", "warden",
+        "hostel warden", "mess food", "hostel mess", "hostel facilities", "staying in hostel",
+        "accommodation on campus", "hostel complaint"
+      ]
+    },
+    {
+      "tag": "transport",
+      "suggestion": "What are the college bus routes?",
+      "patterns": [
+        "what are the college bus routes", "bus timings", "is there transport from the city",
+        "how do I get a bus pass", "transport fee", "college bus schedule", "bus stop near me",
+        "what time does the bus leave campus", "shuttle service", "transport facility",
+        "does the bus go to the railway station", "bus route number", "how to register for college transport",
+        "evening bus timings", "is there a bus on saturday", "parking on campus", "can I bring my bike",
+        "transport office contact", "late bus", "bus pass renewal", "how do I reach the campus", "pickup points",
+        "campus shuttle", "parking", "parking for students", "two wheeler parking", "can I bring my car", "where can I park",
+        "scooter parking",
+        "can I bring my bike to campus", "bus pickup points", "pickup point near my home",
+        "where does the bus pick up", "bus", "college bus", "bus fees", "transport fees", "bus routes",
+        "route of college bus", "bus departure time", "when does the last bus leave", "late bus timing",
+        "how to get to campus", "travel to campus", "transport pass"
+      ]
+    },
+    {
+      "tag": "canteen",
+      "suggestion": "What are the canteen timings?",
+      "patterns": [
+        "what are the canteen timings", "is the canteen open", "food on campus", "canteen menu", "where can I eat",
+        "cafeteria hours", "is there a food court", "what's for lunch today", "food prices in canteen",
+        "is vegetarian food available", "night canteen", "coffee shop on campus", "where can I get snacks",
+        "mess timings", "can I order food in the canteen online", "breakfast timings", "cafeteria location",
+        "juice shop", "is the canteen open on weekends", "food options", "dining hall", "canteen payment options",
+        "cafeteria", "cafeteria timings", "cafeteria open hours", "where is the cafeteria", "lunch",
+        "what's for lunch", "lunch menu", "coffee", "where can I get coffee", "coffee corner", "snacks",
+        "tea and snacks", "food", "food court timings", "food options on campus", "dining", "dining hall timings",
+        "eat on campus", "canteen open now", "night canteen timings", "canteen prices", "veg food"
+      ]
+    },
+    {
+      "tag": "wifi",
+      "suggestion": "How do I connect to campus Wi-Fi?",
+      "patterns": [
+        "how do I connect to campus wifi", "wifi password", "internet not working", "wi-fi access",
+        "how to register my device for wifi", "wifi login", "internet speed on campus", "eduroam",
+        "my laptop can't connect to the network", "wifi in hostel", "network issue", "lan connection",
+        "how many devices can I connect", "wifi credentials", "internet usage limit", "IT helpdesk",
+        "reset my network password", "is there wifi in the library", "connect phone to wifi",
+        "internet access for guests", "vpn for campus resources", "wireless network name", "wifi down", "wifi",
+        "wi-fi", "wi-fi access on campus", "internet access", "internet", "no internet", "wifi not working",
+        "eduroam access", "connect to eduroam", "it helpdesk contact", "IT support", "wifi in the hostel",
+        "hostel wifi not working", "wifi in library", "library wifi", "vpn", "campus vpn", "network password reset",
+        "forgot wifi password", "how many devices on wifi", "connect laptop to wifi", "slow internet"
+      ]
+    },
+    {
+      "tag": "medical",
+      "suggestion": "Where is the health centre?",
+      "patterns": [
+        "where is the health centre", "is there a doctor on campus", "medical emergency", "ambulance number",
+        "I'm feeling sick", "campus clinic timings", "first aid", "health insurance for students",
+        "is there a pharmacy on campus", "medical facilities", "counselling services", "mental health support",
+        "nearest hospital", "doctor available at night", "medical leave", "health checkup", "I need medicine",
+        "dispensary timings", "can I see a counsellor", "emergency contact number", "I got injured",
+        "medical certificate for leave", "nurse on campus", "I am sick", "feeling unwell", "I feel sick",
+        "I have a fever", "clinic", "clinic timings", "campus clinic", "health centre timings", "health centre",
+        "first aid kit", "need first aid", "pharmacy", "pharmacy on campus", "medicine", "where can I get medicines",
+        "hospital", "nearest hospital to campus", "doctor", "doctor at night", "is a doctor available",
+        "counselling", "counsellor", "student counselling", "talk to a counsellor", "mental health", "injured",
+        "I got hurt", "ambulance", "dispensary", "health insurance"
+      ]
+    },
+    {
+      "tag": "grade_submission",
+      "suggestion": "How do I submit grades for CS301?",
+      "patterns": [
+        "how do I submit grades", "grade submission deadline", "upload marks for CS301", "enter internal marks",
+        "submit final grades", "when is the last date to submit marks", "how to upload grades on the portal",
+        "grade entry", "marks upload", "submit internal assessment marks", "can I edit submitted grades",
+        "grade moderation", "end semester marks entry", "deadline for uploading internals", "how to finalize grades",
+        "grading portal", "submit course grades for EC305", "post marks", "upload assignment scores",
+        "grade sheet submission", "correct a student's grade", "freeze grades", "enter grades for my course",
+        "last date to submit marks", "last date for grade submission", "submit grades for CS501",
+        "submit grades for my course", "upload grades", "upload marks", "upload internal marks",
+        "internal marks entry", "enter marks", "enter end semester marks", "grade upload portal", "edit grades",
+        "change a grade after submission", "grade correction", "freeze marks", "finalize marks", "submit marks",
+        "grades deadline", "marks submission deadline"
+      ]
+    },
+    {
+      "tag": "leave_request",
+      "suggestion": "How do I apply for leave?",
+      "patterns": [
+        "how do I apply for leave", "leave request", "apply for casual leave", "I need leave tomorrow",
+        "how many leaves do I have left", "leave balance", "apply for earned leave", "leave application",
+        "medical leave for faculty", "how to request duty leave", "conference leave", "on duty leave",
+        "submit leave form", "status of my leave request", "who approves leave", "leave policy for staff",
+        "can I take leave during exams", "apply for vacation leave", "cancel my leave",
+        "arrange substitute for my class", "leave for attending workshop", "half day leave",
+        "arrange a substitute for my class", "substitute faculty for my lecture", "class substitution",
+        "apply leave", "leave", "take leave", "I want to take leave", "request leave", "leave form", "casual leave",
+        "earned leave", "duty leave", "on duty", "my leave balance", "remaining leaves",
+        "how many casual leaves left", "leave approval", "leave status", "cancel leave", "leave for conference"
+      ]
+    },
+    {
+      "tag": "admission_stats",
+      "suggestion": "Show admission statistics",
+      "patterns": [
+        "show admission statistics", "how many applications have we received", "admission numbers",
+        "how many seats are filled", "seat matrix status", "admissions report", "applications per program",
+        "intake statistics", "how many students admitted to CSE", "vacant seats", "admission trends",
+        "application count for mtech", "admission dashboard", "conversion rate of applications",
+        "how many students joined this year", "seats remaining in ECE", "enrollment statistics", "admission figures",
+        "year on year admissions", "department wise admissions", "admissions summary", "fill rate",
+        "admission statistics", "admission stats", "admissions trend", "application trends", "application count",
+        "number of applications", "how many applications for btech", "applications for mba",
+        "admission dashboard numbers", "seats remaining", "how many seats are left", "vacant seats in CSE",
+        "seats filled in ECE", "fill rate of seats", "admission figures this year", "intake numbers",
+        "admitted students count", "how many students got admitted", "compare applications with last year",
+        "enrollment numbers"
+      ]
+    },
+    {
+      "tag": "notices",
+      "suggestion": "Show the latest notices",
+      "patterns": [
+        "show the latest notices", "any announcements", "what's new on the notice board", "latest circulars",
+        "recent notices", "news from the university", "are there any updates", "any holiday announced",
+        "what are the upcoming events", "notice board", "important announcements", "is tomorrow a holiday",
+        "fest dates", "campus news", "latest news", "any new circular", "show announcements", "updates for students",
+        "event calendar", "what's happening on campus", "read notices", "upcoming events", "events on campus",
+        "events this month", "notices", "notice board updates", "show the notice board", "latest circular",
+        "new circulars", "circulars", "holiday", "is there a holiday", "holidays this month", "fest", "techfest",
+        "when is the fest", "updates", "any updates for students", "what's happening", "news", "announcements"
+      ]
+    },
+    {
+      "tag": "post_notice",
+      "suggestion": "How do I publish a notice?",
+      "patterns": [
+        "how do I publish a notice", "post a notice", "create an announcement", "publish a circular",
+        "add a new notice", "send an announcement to all students", "draft a notice", "schedule a notice",
+        "edit a published notice", "remove an old notice", "broadcast message to faculty",
+        "put up a notice on the board", "create circular for holiday", "issue a notice",
+        "publish announcement on the portal", "delete notice", "make an announcement",
+        "send a notification to everyone", "pin a notice", "approve pending notices", "upload a circular",
+        "broadcast a message", "broadcast to all faculty", "broadcast an announcement", "create a circular",
+        "create a notice", "write a new notice", "new notice", "publish notice", "post an announcement",
+        "post circular", "approve notices", "approve a pending notice", "pending notices for approval",
+        "schedule an announcement", "unpublish a notice", "take down a notice", "edit notice", "notify all students",
+        "send notice to students", "publish a holiday circular"
+      ]
+    }
+  ]
+}

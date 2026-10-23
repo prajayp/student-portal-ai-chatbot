@@ -1,0 +1,31 @@
+                       precision    recall  f1-score   support
+
+  admission_deadlines      1.000     0.889     0.941         9
+  admission_documents      0.800     1.000     0.889         8
+admission_eligibility      1.000     1.000     1.000         9
+       admission_fees      0.900     1.000     0.947         9
+      admission_stats      0.889     1.000     0.941         8
+           attendance      1.000     1.000     1.000         9
+              canteen      0.900     1.000     0.947         9
+       course_details      1.000     1.000     1.000        10
+        exam_schedule      0.917     1.000     0.957        11
+             fallback      0.867     0.929     0.897        14
+              goodbye      1.000     0.778     0.875         9
+     grade_submission      1.000     1.000     1.000         9
+             greeting      1.000     1.000     1.000         9
+                 help      1.000     0.889     0.941         9
+               hostel      1.000     1.000     1.000         9
+        leave_request      0.889     1.000     0.941         8
+              library      1.000     1.000     1.000         9
+              medical      1.000     0.818     0.900        11
+              notices      1.000     1.000     1.000         8
+          post_notice      1.000     1.000     1.000         8
+              results      1.000     0.818     0.900        11
+               thanks      1.000     0.889     0.941         9
+            timetable      1.000     1.000     1.000        10
+            transport      0.900     1.000     0.947         9
+                 wifi      1.000     1.000     1.000         9
+
+             accuracy                          0.957       233
+            macro avg      0.962     0.960     0.959       233
+         weighted avg      0.962     0.957     0.957       233

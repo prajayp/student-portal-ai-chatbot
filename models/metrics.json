@@ -1,0 +1,14 @@
+{
+  "trained_at": "2026-10-23T19:38:05+00:00",
+  "n_intents": 25,
+  "n_examples": 1165,
+  "n_train": 932,
+  "n_test": 233,
+  "test_accuracy": 0.9571,
+  "test_macro_f1": 0.9586,
+  "cv5_accuracy_mean": 0.9193,
+  "cv5_accuracy_std": 0.0107,
+  "confidence_threshold": 0.4,
+  "correct_above_threshold": 0.9283,
+  "errors_below_threshold": 0.7
+}
