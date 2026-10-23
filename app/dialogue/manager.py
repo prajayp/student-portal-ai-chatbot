@@ -3,7 +3,7 @@
 from dataclasses import dataclass
 from enum import StrEnum
 
-from app.dialogue.handlers import REGISTRY, Context, Response, chips
+from app.dialogue.handlers import REGISTRY, ROLE_NOUNS, Context, Response, chips
 from app.dialogue.knowledge import intent_suggestions
 from app.dialogue.roles import Role
 from app.dialogue.state import DialogueState, SessionStore, Slots
@@ -55,7 +55,7 @@ class DialogueManager:
         if role not in spec.roles:
             state.pending_slot = None
             allowed = " and ".join(sorted(r.value for r in spec.roles))
-            reply = f"Sorry, {spec.title} is only available to {allowed} accounts. You're signed in as {role.value}."
+            reply = f"Sorry, {spec.title} is only available to {allowed} accounts. You're signed in as {ROLE_NOUNS[role]}."
             return TurnResult(reply, intent, confidence, chips(role), dict(state.slots), Resolution.RESTRICTED)
 
         state.remember(entities)

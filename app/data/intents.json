@@ -373,7 +373,7 @@
     },
     {
       "tag": "grade_submission",
-      "suggestion": "How do I submit grades for CS301?",
+      "suggestion": "How do I submit grades for CS501?",
       "patterns": [
         "how do I submit grades", "grade submission deadline", "upload marks for CS301", "enter internal marks",
         "submit final grades", "when is the last date to submit marks", "how to upload grades on the portal",

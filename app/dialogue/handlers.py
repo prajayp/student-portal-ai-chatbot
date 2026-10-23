@@ -20,6 +20,7 @@ SLOT_OPTIONS: dict[str, list[str]] = {
     "semester": ["Semester 1", "Semester 3", "Semester 5", "Semester 7"],
     "program": list(PROGRAM_LABELS.values()),
 }
+ROLE_NOUNS = {Role.STUDENT: "a student", Role.FACULTY: "a faculty member", Role.ADMINISTRATOR: "an administrator"}
 DEFAULT_CHIPS: dict[Role, tuple[str, ...]] = {
     Role.STUDENT: ("exam_schedule", "attendance", "library", "hostel"),
     Role.FACULTY: ("grade_submission", "leave_request", "timetable", "notices"),
@@ -141,7 +142,7 @@ def greeting(ctx: Context) -> Response:
         Role.ADMINISTRATOR: "admission statistics, notices, results and campus services",
     }[ctx.role]
     return Response(
-        f"Hi {ctx.profile['name']}! I'm the {uni} assistant. As a {ctx.role.value} you can ask me about {focus}.",
+        f"Hi {ctx.profile['name']}! I'm the {uni} assistant. As {ROLE_NOUNS[ctx.role]} you can ask me about {focus}.",
         chips(ctx.role),
     )
 
